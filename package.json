@@ -1,0 +1,35 @@
+{
+	"name": "validate-mail",
+	"version": "1.0.0",
+	"description": "Validate your emails easier 📧",
+	"license": "MIT",
+	"repository": "abranhe/validate-mail",
+	"author": {
+		"name": "Abraham Hernandez",
+		"email": "abraham@abranhe.com",
+		"url": "abranhe.com"
+	},
+	"bugs": {
+		"url": "https://github.com/abranhe/validate-mail/issues"
+	},
+	"homepage": "https://projects.abranhe.com/validate-mail",
+	"scripts": {
+		"test": "ava"
+	},
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		"mail",
+		"email",
+		"validator",
+		"validate-mail",
+		"mail-validator",
+		"validate-email",
+		"email-validator"
+	],
+	"devDependencies": {
+		"ava": "*",
+		"xo": "*"
+	}
+}
