@@ -14,10 +14,11 @@
 	},
 	"homepage": "https://projects.abranhe.com/validate-mail",
 	"scripts": {
-		"test": "ava"
+		"test": "xo && ava && tsd"
 	},
 	"files": [
-		"index.js"
+		"index.js",
+		"index.d.ts"
 	],
 	"keywords": [
 		"mail",
@@ -30,6 +31,7 @@
 	],
 	"devDependencies": {
 		"ava": "*",
+		"tsd": "*",
 		"xo": "*"
 	}
 }
