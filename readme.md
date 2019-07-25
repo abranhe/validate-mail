@@ -1,21 +1,16 @@
-<p align="center">
-	<br>
-	<a href="https://npmjs.com/package/validate-mail"><img src="https://cdn.abranhe.com/projects/validate-mail/logo.svg"></a>
-	<br>
-	<a href="https://npmjs.com/validate-mail">validate-mail</a>: Validate your emails easier 📧
-	<br>
-</p>
 
-<p align="center">
-	<a href="https://travis-ci.org/abranhe/validate-mail"><img src="https://img.shields.io/travis/abranhe/validate-mail.svg?logo=travis" /></a>
-	<a href="https://github.com/abranhe"><img src="https://abranhe.com/badge.svg"></a>
-	<a href="https://cash.me/$abranhe"><img src="https://cdn.abranhe.com/badges/cash-me.svg"></a>
-	<a href="https://patreon.com/abranhe"><img src="https://cdn.abranhe.com/badges/patreon.svg" /></a>
-	<a href="https://github.com/abranhe/validate-mail/blob/master/license"><img src="https://img.shields.io/github/license/abranhe/validate-mail.svg" /></a>
-  <a href="https://npmjs.com/package/validate-mail"><img src="https://img.shields.io/npm/v/validate-mail.svg"></a>
-  <br>
-  <br>
-</p>
+[![logo](https://cdn.abranhe.com/projects/validate-mail/logo.svg)](https://npmjs.com/package/validate-mail)
+
+# validate-mail
+
+> Validate your emails got easier 📧
+
+[![](https://img.shields.io/travis/abranhe/validate-mail.svg?logo=travis)](https://travis-ci.org/abranhe/validate-mail)
+[![](https://abranhe.com/badge.svg)](https://github.com/abranhe)
+[![](https://cdn.abranhe.com/badges/cash-me.svg)](https://cash.me/$abranhe)
+[![](https://cdn.abranhe.com/badges/patreon.svg)](https://patreon.com/abranhe)
+[![](https://img.shields.io/github/license/abranhe/validate-mail.svg)](https://github.com/abranhe/validate-mail/blob/master/license)
+[![](https://img.shields.io/npm/v/validate-mail.svg)](https://npmjs.com/package/validate-mail)
 
 
 ## Install
@@ -36,11 +31,19 @@ validate('your @email.com');
 // => false
 ```
 
-## Team
+## API
 
-|[![Carlos Abraham Logo][abranhe-img]][abranhe]|
-| :-: |
-| [Carlos Abraham][abranhe] |
+### checkCamelcase(input)
+
+Check if an string is camelCase
+
+Type: `boolean`
+
+#### input
+
+Type: `string`
+
+String (email) to be validated
 
 ## License
 
