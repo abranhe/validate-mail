@@ -9,7 +9,6 @@ test('Check valid emails', t => {
 });
 
 test('Check invalid emails', t => {
-	t.is(validateMail('test@email.com'), true);
 	t.not(validateMail('test @email.com'), true);
 	t.not(validateMail('sometestemail.com'), true);
 	t.not(validateMail('sometestemails.com'), true);
