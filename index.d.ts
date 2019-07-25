@@ -6,7 +6,7 @@
  * 
  * @example
  * ```
- * import validateMail = require('check-camelcase');
+ * import validateMail = require('validate-mail');
  * 
  * validateMail('your@email.com');
  * // => true
