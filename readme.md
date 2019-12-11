@@ -33,9 +33,9 @@ validate('your @email.com');
 
 ## API
 
-### checkCamelcase(input)
+### validate(input)
 
-Check if an string is camelCase
+Checks if an email is valid.
 
 Type: `boolean`
 
